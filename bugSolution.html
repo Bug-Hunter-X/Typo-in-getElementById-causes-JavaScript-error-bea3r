@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+
+  <script>
+    //Correct way to access the element
+    let element = document.getElementById('myDiv');
+    console.log(element);
+    element.innerHTML = "<b>This text will show correctly.</b>";
+  </script>
+</body>
+</html>
